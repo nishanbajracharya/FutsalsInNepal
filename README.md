@@ -12,7 +12,7 @@ Before you can see the site in action, you need to setup a few things first.
 ## Running the project
 
 Now that the setup is done, let's run the project. In your project directory, open a terminal and run the command `npm start`. That's it. The server is running and is listening for connections at port 3000.
-So open your browser and run `http://localhost:3000` or `http://127.0.0.1:2000`.
+So open your browser and run `http://localhost:3000` or `http://127.0.0.1:3000`.
 
 ## Technology used
 
