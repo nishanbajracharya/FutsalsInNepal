@@ -2,6 +2,7 @@
   "name": "FutsalsInNepal",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://nishan13.github.io/FutsalsInNepal",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
