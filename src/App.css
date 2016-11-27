@@ -35,7 +35,7 @@
   display: none;
 }
 
-.header-right button{
+button{
   height: 40px;
   border-radius: 4px;
   border:1px solid #47a;
@@ -52,13 +52,13 @@
   cursor: pointer;
 }
 
-.header-right button:hover{
+button:hover{
   border:1px solid #469;
   background:#47a;
   background-image:linear-gradient(#48b, #47a);
 }
 
-.header-right button:active{
+button:active{
   border:1px solid #469;
   background:#469;
   background-image:linear-gradient(#469, #47a);
@@ -95,6 +95,39 @@
   background: #eee;
   background-image: linear-gradient(#fafafa, #eee);
   font-weight:bold;
+}
+.AddFutsal{
+  width:1024px;
+  padding:10px;
+  margin:0 auto;
+  margin-top:60px;
+}
+.AddFutsal label{
+  display: inline-block;
+  width: 100px;
+}
+.AddFutsal input{
+  padding: 10px;
+  margin:10px;
+  border-radius: 3px;
+  outline: none;
+  border:1px solid #ccc;
+  width: 250px;
+  transition:.2s;
+}
+.AddFutsal input:hover{
+  border:1px solid #aaa;
+}
+.AddFutsal input:focus,.AddFutsal input:active{
+  border:1px solid #49c;
+}
+.AddFutsal .addFutsal-left,.AddFutsal .addFutsal-right{
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+.AddFutsal .addFutsal-right > div{
+  border:1px solid #ccc;
 }
 @media (max-width: 980px) {
   .Futsal {

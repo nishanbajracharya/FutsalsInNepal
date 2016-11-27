@@ -19,7 +19,7 @@ class FutsalItem extends Component {
 					<p className="location">Address : {futsalItem.location}</p>
 					<p className="phone">Phone : {futsalItem.phone}</p>
 					<p className="openhours">Open Hours : {futsalItem.openhours}</p>
-					<p className="rate">Rate : {futsalItem.rate}</p>
+					<p className="rate">Rate : Rs {futsalItem.rate}/hr</p>
 				</div>
 			</div>
 			);

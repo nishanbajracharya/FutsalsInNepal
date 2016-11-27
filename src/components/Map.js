@@ -15,13 +15,13 @@ class Map extends Component {
 	}
 
 	componentDidMount(){
-		var width = ReactDOM.findDOMNode(this).offsetWidth;
-		
+		var width = ReactDOM.findDOMNode(this).offsetWidth;	
 	}
 
 	onMapCreated(map) {
 		map.setOptions({
-			disableDefaultUI: true
+			disableDefaultUI: false,
+			streetViewControl: false
 		});
 	}
 
@@ -31,7 +31,7 @@ class Map extends Component {
 			for(var i in this.props.fc){
 				var coor = this.props.fc[i][5].split(",");
 				var title = this.props.fc[i][1];
-				futsalCoords.push(<Marker lat={coor[0]} lng={coor[1]} draggable={false} icon={FutsalMarker} title={title}/>)
+				futsalCoords.push(<Marker key={this.props.fc[i][0]} lat={coor[0]} lng={coor[1]} draggable={false} icon={FutsalMarker} title={title}/>)
 			}
 		}
 		console.log(futsalCoords)
